@@ -13,7 +13,7 @@ class BoxController {
             options: { sort: { createdAt: -1 } }
         })
 
-        return res.json(box.files)
+        return res.json(box)
     }
 }
 
